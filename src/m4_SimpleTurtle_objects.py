@@ -10,11 +10,11 @@ Also:
   -- ASSIGNING a VALUE to a NAME (VARIABLE).
 
 Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
-         Aaron Wilkin, their colleagues, and PUT_YOUR_NAME_HERE.
+         Aaron Wilkin, their colleagues, and Yuki.
 """
 ###############################################################################
 #
-# TODO: 1.
+# DONE: 1.
 #   Yes, that means for YOU to DO things per the following instructions:
 #
 #   On Line 13 above, replace  PUT_YOUR_NAME_HERE  with your OWN name.
@@ -126,7 +126,16 @@ natasha.go_to(rg.Point(-100, 200))
 #   As always, test by running the module.
 #
 ###############################################################################
+yuki = rg.SimpleTurtle('turtle')
+yuki.pen = rg.pen('blue', 40)
+yuki.speed = 10
 
+yuki.backward(30)
+yuki.left(50)
+yuki.forward(100)
+
+yuki.speed = 3
+yuki.go_to(rg.point(-50, 100))
 ###############################################################################
 #
 # TODO: 5.

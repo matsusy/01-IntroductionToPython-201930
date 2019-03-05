@@ -1,9 +1,9 @@
-
+import math
 answer = 2 ** 5
 print(answer * 100)
 
 ###############################################################################
-# TODO: 1.
+# DONE: 1.
 #   Read the 2 lines of code ABOVE this _TODO_.  That code:
 #     1. Computes 2 raised to the 5th power,
 #          yielding the object that is the integer 32.
@@ -20,7 +20,7 @@ print(answer * 100)
 ###############################################################################
 
 ###############################################################################
-# TODO: 2.
+# DONE: 2.
 #   Immediately below this _TODO_, write code that:
 #     - Computes 77 plus the cosine of 2.75.
 #         HINT: You will need to import the   math  module (library).
@@ -28,17 +28,21 @@ print(answer * 100)
 #     - Prints the square root of that computed value.
 #   Run your code (fix errors as needed), then change the above _TODO_ to DONE.
 ###############################################################################
-
+x = 77 + math.cos(2.75)
+print(math.sqrt(x))
+y = (41*88) + (4*math.cos(2))
+print(math.sqrt(y))
 ###############################################################################
-# TODO: 3.
+# DONE: 3.
 #   Immediately below this _TODO_, write code that computes and prints:
 #      the square root of ((41 * 88) + (4 * the cosine of 2))
 #   Use as few or as many intermediate names as you feel appropriate.
 #   Run your code (fix errors as needed), then change the above _TODO_ to DONE.
 ###############################################################################
-
+print(math.sqrt(2))
+print(2 ** 0.5)
 ###############################################################################
-# TODO: 4.
+# DONE: 4.
 #   Immediately below this _TODO_,
 #   write code that computes the square root of 2 in two ways:
 #     - By using the   math.sqrt   function.
@@ -49,7 +53,7 @@ print(answer * 100)
 
 
 ###############################################################################
-# TODO: 5.
+# DONE: 5.
 #   Every object has a TYPE and a VALUE.  For example,
 #   for the object that is computed by  math.sqrt(2):
 #      Its TYPE is float  (which is shorthand for "floating point number").
