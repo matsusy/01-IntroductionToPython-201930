@@ -55,7 +55,7 @@ window.tracer(100)
 
 another_turtle = rg.SimpleTurtle('triangle')
 another_turtle.pen = rg.Pen('magenta', 1)
-another_turtle.backward(50)
+another_turtle.backward(40)
 
 for k in range(500):
     another_turtle.left(88)
