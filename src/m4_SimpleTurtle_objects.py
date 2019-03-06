@@ -29,7 +29,7 @@ import rosegraphics as rg
 
 ###############################################################################
 #
-# TODO: 2.
+# DONE: 2.
 #   Allow this module to use the  rosegraphics.py  module by marking the
 #     src
 #   folder in this project as a "Sources Root", as follows:
@@ -48,7 +48,7 @@ import rosegraphics as rg
 
 ###############################################################################
 #
-# TODO: 3.
+# DONE: 3.
 #   Run this module.  A window will pop up and Turtles will move around.
 #   After the Turtles stop moving,
 #      ** click anywhere in the window to close the window **.
@@ -116,7 +116,7 @@ natasha.go_to(rg.Point(-100, 200))
 
 ###############################################################################
 #
-# TODO: 4.
+# DONE: 4.
 #   Add a few more lines of your own code to make one of the existing
 #   SimpleTurtles move some more and/or have different characteristics.
 #
@@ -127,7 +127,7 @@ natasha.go_to(rg.Point(-100, 200))
 #
 ###############################################################################
 yuki = rg.SimpleTurtle('turtle')
-yuki.pen = rg.pen('blue', 40)
+yuki.pen = rg.Pen('blue', 40)
 yuki.speed = 10
 
 yuki.backward(30)
@@ -135,10 +135,10 @@ yuki.left(50)
 yuki.forward(100)
 
 yuki.speed = 3
-yuki.go_to(rg.point(-50, 100))
+yuki.go_to(rg.Point(-50, 100))
 ###############################################################################
 #
-# TODO: 5.
+# DONE: 5.
 #   The above code  CONSTRUCTS  two SimpleTurtle objects
 #   and gives those objects NAMES:
 #       boris    natasha
@@ -165,7 +165,7 @@ yuki.go_to(rg.point(-50, 100))
 
 ###############################################################################
 #
-# TODO: 6.
+# DONE: 6.
 #   Ensure that no blue bars on the scrollbar-thing to the right remain.
 #   Run one more time to be sure that all is still OK.
 #
