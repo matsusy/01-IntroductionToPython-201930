@@ -34,7 +34,7 @@ window = rg.TurtleWindow()
 
 blue_turtle = rg.SimpleTurtle('turtle')
 blue_turtle.pen = rg.Pen('yellow', 5)
-blue_turtle.speed = 20  # Fast
+blue_turtle.speed = 20
 
 size = 50
 

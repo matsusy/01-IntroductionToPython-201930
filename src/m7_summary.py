@@ -2,12 +2,29 @@
 An exercise that summarizes what you have learned in this Session.
 
 Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
-         Aaron Wilkin, their colleagues, and PUT_YOUR_NAME_HERE.
+         Aaron Wilkin, their colleagues, and Yuki Matsushita.
 """
 ########################################################################
 # TODO: 1.
 #   On Line 5 above, replace  PUT_YOUR_NAME_HERE  with your own name.
 ########################################################################
+import rosegraphics as rg
+
+window = rg.TurtleWindow()
+
+Simpleturtle = rg.SimpleTurtle('turtle')
+Simpleturtle.pen = rg.Pen('blue', 10)
+Simpleturtle.speed = 1
+Simpleturtle.forward(200)
+
+Simpleturtle.pen_up()
+Simpleturtle.go_to(rg.Point(100, -40))
+
+Simpleturtle.pen_down()
+Simpleturtle.pen = rg.Pen('green', 10)
+
+Simpleturtle.right(90)
+Simpleturtle.forward(150)
 
 ########################################################################
 #
